@@ -19,4 +19,6 @@ def oxford_comma(array)
   elsif array.length > 3
     "#{array[0..array.length-1].join(", ")} and #{array.last}"
   end
+
+  
 end

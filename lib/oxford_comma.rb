@@ -6,6 +6,9 @@ def oxford_comma(array)
     "#{array.join(" and ")}"
   when array.length == 3
     "#{array[0..1].join(" and ")} and #{array.last}"
+  when array.length > 3
+    "#{array[0..array.length-1].join(" and ")} and #{array.last}"
+
 
 
 

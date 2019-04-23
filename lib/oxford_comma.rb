@@ -4,6 +4,9 @@ def oxford_comma(array)
     "#{array}"
   when array.length == 2
     "#{array.join(" and ")}"
+  when array.length == 3
+    "#{array[0..1].join(" and ")} and #{array.last}"
+
 
 
 end

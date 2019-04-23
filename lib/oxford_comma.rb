@@ -21,8 +21,5 @@ def oxford_comma(array)
     "#{array[0..array.length-1].join(", ")} and #{array.last}"
   end
 
-  i = 0
-  while i < array.length
-    puts "#{array[i]},"
 
 end

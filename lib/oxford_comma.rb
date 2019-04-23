@@ -1,3 +1,9 @@
 def oxford_comma(array)
-  return "#{array[0]}"
+  case array
+  when array.length == 1
+    "#{array}"
+  when array.length == 2
+    "#{array.join(" and ")}"
+
+
 end
